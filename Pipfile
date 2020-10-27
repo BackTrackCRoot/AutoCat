@@ -1,0 +1,15 @@
+[[source]]
+name = "pypi"
+url = "https://pypi.tuna.tsinghua.edu.cn/simple"
+verify_ssl = true
+
+[dev-packages]
+yapf = "*"
+
+[packages]
+pbr = "*"
+uiautomator2 = "*"
+weditor = "*"
+
+[requires]
+python_version = "3.8"
